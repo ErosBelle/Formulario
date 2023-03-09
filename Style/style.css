@@ -1,0 +1,120 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+background-image: url('https://w.wallhaven.cc/full/ox/wallhaven-oxjvqm.jpg');
+background-size: cover;
+
+color: rgb(240, 248, 255);
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    background-color: rgba(117, 117, 117, 0.329);
+   opacity: 1;
+    color: #ebeaea;
+width: 100%;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.952);
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista {
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a:hover {
+    background-color:#186783cb;
+}
+
+main { 
+  text-align: center ;
+}
+
+img {
+    margin-top: 10px ;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgba(90, 88, 88, 0.336);
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #18709077;
+    color: rgb(255, 255, 255);
+}
+
+label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea {
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #18709075;
+    color: rgb(255, 255, 255);
+}
+
+button[type = "submit"]{
+    background-color: #1870903b;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.541);
+}
+
+input:focus {
+    outline: none;
+    background-color: #198f9e;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
