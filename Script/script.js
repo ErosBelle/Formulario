@@ -13,7 +13,7 @@ formulario.addEventListener ('submit', (e)=>{
 function LeerDatos() {
     Nombre = document.getElementById('Nombre').value
     Correo = document.getElementById('Correo').value
-    Mensaje = document.getElementById('Mensaje').value
+    Mensaje = document.getElementById('textarea').value
     ValidarData(Nombre,Correo,Mensaje)
     GuardarLocalStorage(Nombre,Correo,Mensaje)
 }
