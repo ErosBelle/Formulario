@@ -3,6 +3,13 @@ let Nombre,Correo,Mensaje
 let formulario = document.getElementById('form')
 
 
+
+formulario.addEventListener ('submit', (e)=>{
+    e.preventDefault ()
+    LeerDatos ()
+})
+
+
 function LeerDatos() {
     Nombre = document.getElementById('Nombre').value
     Correo = document.getElementById('Correo').value
@@ -10,12 +17,6 @@ function LeerDatos() {
     ValidarData(Nombre,Correo,Mensaje)
     GuardarLocalStorage(Nombre,Correo,Mensaje)
 }
-
-formulario.addEventListener ('submit', (e)=>{
-    console.log('hola')
-    e.preventDefault ()
-    LeerDatos ()
-})
 
 function ValidarData( Nombre,Correo,Mensaje) {
     if (Nombre.length==0 || Correo.length==0 || Mensaje.length==0) {
