@@ -1,12 +1,18 @@
+let Nombre,Correo,Mensaje
+
+let formulario = document.getElementById('form')
+
+
 function LeerDatos() {
     Nombre = document.getElementById('Nombre').value
     Correo = document.getElementById('Correo').value
-    Mensaje = document.getElementById('Mensaje').value
+    Mensaje = document.getElementById('textarea').value
     ValidarData(Nombre,Correo,Mensaje)
     GuardarLocalStorage(Nombre,Correo,Mensaje)
 }
 
 formulario.addEventListener ('submit', (e)=>{
+    console.log('hola')
     e.preventDefault ()
     LeerDatos ()
 })
@@ -26,13 +32,13 @@ function ValidarData( Nombre,Correo,Mensaje) {
 function GuardarLocalStorage(Nombre,Correo,Mensaje) {
     localStorage.setItem('Nombre',Nombre)
     localStorage.setItem('Correo',Correo)
-    localStorage.setItem('Mensaje',Mensaje)
+    localStorage.setItem('textarea',Mensaje)
 }
 
 function ListarData() {
     let NombreUsu = localStorage.getItem('Nombre')
     let CorreoUsu = localStorage.getItem('Correo')
-    let MensajeUsu = localStorage.getItem('Mensaje')
+    let MensajeUsu = localStorage.getItem('textarea')
 }
 
 
