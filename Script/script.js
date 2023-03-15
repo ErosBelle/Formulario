@@ -6,7 +6,7 @@ let formulario = document.getElementById('form')
 
 formulario.addEventListener ('submit', (e)=>{
     e.preventDefault ()
-    LeerDatos ()
+    LeerDatos()
 })
 
 
