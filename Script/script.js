@@ -20,12 +20,12 @@ function LeerDatos() {
 
 function ValidarData( Nombre,Correo,Mensaje) {
     if (Nombre.length==0 || Correo.length==0 || Mensaje.length==0) {
-        swal.fire({
-            title: 'Oops...',
-            text: 'Complete los campos faltantes',
-            icon: 'error',
-            confirmButtonText: 'Cool',
-            iconColor: 'red'
+    swal.fire({
+        title: 'Oops...',
+        text: 'Complete los campos faltantes',
+        icon: 'error',
+        confirmButtonText: 'Cool',
+        iconColor: 'red'
         })
     }
     else GuardarLocalStorage(Nombre,Correo,Mensaje)
