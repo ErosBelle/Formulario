@@ -24,7 +24,7 @@ function ValidarData( Nombre,Correo,Mensaje) {
         title: 'Oops...',
         text: 'Complete los campos faltantes',
         icon: 'error',
-        confirmButtonText: 'Cool',
+        confirmButtonText: 'OK',
         iconColor: 'red'
         })
     }
