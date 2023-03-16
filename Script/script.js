@@ -21,11 +21,11 @@ function LeerDatos() {
 function ValidarData( Nombre,Correo,Mensaje) {
     if (Nombre.length==0 || Correo.length==0 || Mensaje.length==0) {
         swal.fire({
-            title: 'Error',
-            text: 'Do you want to continue',
+            title: 'Oops...',
+            text: 'Complete los campos faltantes',
             icon: 'error',
             confirmButtonText: 'Cool',
-            iconColor: 'purple'
+            iconColor: 'red'
         })
     }
 }
