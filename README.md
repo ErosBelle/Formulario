@@ -1,61 +1,51 @@
 # Formulario
 ## 30 Etiquetas de HTML
 
-- body:Muestra y provee informacion general, como son el titulo, enlaces a scripts y hojas de estilo
-
-- head:
-
-- div: 
-
-- a: para enlaces
-
-- strong: para poner el texto en negrita
-
-- br: para saltos de línea
-
-- H1…H6: para títulos dentro del contenido
-
-- img: para añadir imágenes al documento
-
-- ol: para listas ordenadas
-
-- ul: para listas desordenadas 
- 
-- li: para elementos dentro de la lista
-
-- p: para parrafos
-
-- span: para estilos de una parte del texto
-
 1. 
-``` html <p></p> ``` etiquetas para escribir parrafos
+```<p></p> ``` Etiquetas para escribir parrafos
 
 2. 
-```html <head></head> ```la cabeza del proyecto o pagina
+```<head></head> ```La cabeza del proyecto o pagina
 
 3. 
-```html <body></body>```el cuerpo del proyecto o pagina
+```<body></body>```El cuerpo del proyecto o pagina
 
 4.
-```html <div></div>```caja dentro del proyecto par ciertos elementos
+```<div></div>```Caja dentro del proyecto par ciertos elementos
 
 5. 
-```html <ul></ul> ```lista desordenada
+```<ul></ul> ```Lista desordenada
 
 6. 
-```html <li></li>```lista ordenada
+```<li></li>```Lista ordenada
 
 7. 
-```html <a href=""></a>```para crear un vinculo externo a la pagina
+```<a href=""></a>```Para crear un vinculo externo a la pagina
 
 8. 
-```html <textarea name="" id="" cols="30" rows="10"></textarea> ```caja de texto para mucha informacion o mensaje
+```<textarea name="" id="" cols="30" rows="10"></textarea> ```Caja de texto para mucha informacion o mensaje
 
 9. 
-```html <button></button>```boton interactivo en las paginas
+```<button></button>```Boton interactivo en las paginas
 
 10.
-```html <form action=""></form> ```es para crear un formulario
+```<form action=""></form> ```Es para crear un formulario
 
 11. 
-```html <title></title>```
+``` <title></title>``` Se usa para dar nombre a la pagina
+
+12. 
+``` <body></body> ```Muestra y provee informacion general, como son el titulo, enlaces a scripts y hojas de estilo
+
+13. 
+``` br ```Para saltos de línea
+
+14. 
+``` <h1></h1> <h6></h6> ``` Para titulos,subtilos,etc dentro de la pagina
+
+15. 
+``` <img src="" alt="" title="" > ``` Para añadir imágenes al documento
+
+16. 
+``` <span></span> ``` Para estilos de una parte del texto
+
