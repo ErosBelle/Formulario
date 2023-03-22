@@ -49,3 +49,11 @@
 16. 
 ``` <span></span> ``` Para estilos de una parte del texto
 
+17.
+ ``` <hr></hr> ``` Etiqueta utilizada para «romper» entre dos secciones de una web. Usada comúnmente como separador.
+ 
+18.
+ ```<pre></pre> ``` Usada para pegar texto manteniendo el pre formato propio del texto.
+ 
+19.
+``` <blockquote></blockquote> ``` Se usan para indicar que el contenido es texto citado
