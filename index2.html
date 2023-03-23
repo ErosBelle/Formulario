@@ -15,29 +15,57 @@
             <ul class="menu">
                 <li  class="lista"><a href="./index.html">Inicio</a></li>
                 <li  class="lista"><a href="./index2.html">Informacion</a></li>
-                <li  class="lista lista-r"><a href="#">Contactenos</a></li>
+                <li  class="lista lista-r"><a href="contactenos.html">Contactenos</a></li>
             </ul>
         </nav>
     </header>
+ <main id="">
+    <form action="" id="form2">
+      <div class="CONT">
 
-<form action="">
-    <div class="INFO">
-        <p id="p">Propietario del vehiculo:</p>
+
+       <div id="ee">
+        <p>Propietario del vehiculo:</p>
         <input type="text" placeholder="Propietario del vehiculo" id="Propietario">
-        <p id="M">Modelo del vehiculo:</p>
+        <p id="">Modelo del vehiculo:</p>
         <input type="number" placeholder="Modelo del vehiculo" id="Modelo">
-        <p id="P">Placa del vehiculo:</p>
+        <div id="P_T">
+        <div id="P">
+        <p >Placa del vehiculo:</p>
         <input type="text" placeholder="NN-NN-LL" id="Placa">
-        <P id="T">Tipo de vehiculo:</P>
+        </div>
+
+
+
+        <div id="T">
+        <P >Tipo de vehiculo:</P>
         <input type="text" placeholder="Carro Moto" id="Tipo">
-        <P id="F">Fecha de entrada:</P>
-        <input type="date" placeholder="Fecha de entrada" id="Entrada">
-        <p id="H">Hora de inicio:</P>
-        <input type="time" placeholder="hh:mm" id="Inicio">
-        <p id="C">Cantidad de horas:</p>
-        <input type="number" placeholder="Cantidad" id="Horas">
+        </div>
+        </div>
         
-    </div>
-</form>
+
+        <div id="H_C_F">
+        <div id="F">
+        <P >Fecha de entrada:</P>
+        <input type="date" placeholder="Fecha de entrada" id="Entrada">
+        </div>
+        <div id="H">
+        <p >Hora de inicio:</P>
+        <input type="time" placeholder="hh:mm" id="Inicio">
+        </div>
+        <div id="C">
+        <p >Cantidad de horas:</p>
+        <input type="number" placeholder="Cantidad" id="Horas">
+        </div>
+        </div>
+
+       </div>
+      </div>
+     <button type="submit">Enviar</button>
+    </form>
+</main>
+
+<script src="./Script/script2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
