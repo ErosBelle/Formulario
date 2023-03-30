@@ -20,7 +20,7 @@
 ```<li></li>```Lista ordenada
 
 7. 
-```<a href=""></a>```Para crear un vinculo externo a la pagina
+```<a href=""></a>``` Para crear un vinculo externo a la pagina
 
 8. 
 ```<textarea name="" id="" cols="30" rows="10"></textarea> ```Caja de texto para mucha informacion o mensaje
@@ -44,7 +44,7 @@
 ``` <h1></h1> <h6></h6> ``` Para titulos,subtilos,etc dentro de la pagina
 
 15. 
-``` <img src="" alt="" title="" > ``` Para añadir imágenes al documento
+``` <img src="" alt="" title=""> ``` Para añadir imágenes al documento
 
 16. 
 ``` <span></span> ``` Para estilos de una parte del texto
