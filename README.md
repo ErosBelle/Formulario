@@ -132,26 +132,44 @@
 10.
 ``` <box-sizing> ``` Define cómo se calculan el ancho y el alto de un elemento: si deben incluir relleno y bordes, o no.
 
-11. break-after Especifica si se debe producir o no un salto de página, un salto de columna o un salto de región después del elemento especificado.
-12. display Establece el comportamiento de visualización (el tipo de cuadro de representación) de un elemento.
-13. empty-cells
-Establece si mostrar o no los bordes en las celdas vacías de una tabla.
-14. filter Define efectos visuales (como desenfoque y saturación) a un elemento (a menudo utilizado para imágenes).
-15. flex Es una propiedad abreviada para:
-flex-grow
-flex-shrink
-flex-basis
-Establece la longitud flexible en elementos flexibles.
-16. flex-basis Especifica la longitud inicial de un elemento flexible.
-17. flex-direction Esta propiedad indica la dirección de los elementos flexibles.
-18. flex-flow Es una abreviatura para las propiedades:
-flex-direction
-flex-wrap
+11.
+``` <break-after> ``` Especifica si se debe producir o no un salto de página, un salto de columna o un salto de región después del elemento especificado.
+
+12.
+``` <display> ``` Establece el comportamiento de visualización (el tipo de cuadro de representación) de un elemento.
+
+13.
+``` <empty-cells> ``` Establece si mostrar o no los bordes en las celdas vacías de una tabla.
+
+14.
+``` <filter> ``` Define efectos visuales (como desenfoque y saturación) a un elemento (a menudo utilizado para imágenes).
+
+15.
+``` <flex> ``` Es una propiedad abreviada para:
+``` <flex-grow> ```
+``` <flex-shrink ```
+``` <flex-basis ```
+Establece la longitud flexible en elementos flexibles
+
+16.
+``` <flex-basis> ``` Especifica la longitud inicial de un elemento flexible.
+
+17.
+``` <flex-direction> ``` Esta propiedad indica la dirección de los elementos flexibles.
+
+18.
+``` <flex-flow> ``` Es una abreviatura para las propiedades:
+``` <flex-direction> ```
+``` <flex-wrap> ```
 Si los elementos no son elementos flexibles, la propiedad de flujo flexible no tiene efecto.
-19. font Es una abreviatura para las propiedades:
-font-style
-font-variant
-font-weight
-font-size/line-height
-font-family
-20. font-family Especifica la fuente de texto para un elemento. Es posible especificar varios nombres de fuente como un sistema «alternativo». Si el navegador no admite la primera fuente, prueba con la siguiente fuente.
+
+19. 
+``` <font> ``` Es una abreviatura para las propiedades:
+``` <font-style> ```
+``` <font-variant> ```
+``` <font-weight
+``` <font-size/line-height> ```
+``` <font-family> ```
+
+20.
+``` <font-family> ``` Especifica la fuente de texto para un elemento. Es posible especificar varios nombres de fuente como un sistema «alternativo». Si el navegador no admite la primera fuente, prueba con la siguiente fuente.
