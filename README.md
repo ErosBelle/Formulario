@@ -159,17 +159,20 @@ Establece la longitud flexible en elementos flexibles
 
 18.
 ``` <flex-flow> ``` Es una abreviatura para las propiedades:
+
 ``` <flex-direction> ```
 ``` <flex-wrap> ```
+
 Si los elementos no son elementos flexibles, la propiedad de flujo flexible no tiene efecto.
 
 19. 
 ``` <font> ``` Es una abreviatura para las propiedades:
+
 ``` <font-style> ```
 ``` <font-variant> ```
-``` <font-weight
+``` <font-weight> ```
 ``` <font-size/line-height> ```
 ``` <font-family> ```
 
 20.
-``` <font-family> ``` Especifica la fuente de texto para un elemento. Es posible especificar varios nombres de fuente como un sistema «alternativo». Si el navegador no admite la primera fuente, prueba con la siguiente fuente.
+``` <font-family> ```Especifica la fuente de texto para un elemento. Es posible especificar varios nombres de fuente como un sistema «alternativo». Si el navegador no admite la primera fuente, prueba con la siguiente fuente.
