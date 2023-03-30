@@ -103,7 +103,8 @@
 4.
 ``` <all></all> ``` Establece el valor de todas las propiedades del elemento seleccionado. 
 
-5. ``` <background></background> ``` Es una propiedad abreviada para:
+5.
+``` <background></background> ``` Es una propiedad abreviada para:
 
 ``` <background-color> ```
 ``` <background-image> ```
@@ -114,7 +115,8 @@
 ``` <background-clip> ```
 ``` <background-attachment> ```
 
-6. border Es una abreviatura de las propiedades:
+6.
+```<border> ``` Es una abreviatura de las propiedades:
 
 ``` <border-width></border-width> ```
 ``` <border-style></border-style> ```
